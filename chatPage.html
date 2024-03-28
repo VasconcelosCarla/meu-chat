@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Chat</title>
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!--Font aawesome kit-->
+    <script src="https://kit.fontawesome.com/44230caeea.js" crossorigin="anonymous"></script>
+  
+    <!--Sweet Alert-->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+
+
+    <link rel="stylesheet" href="./css/styleChatPage.css">
+    <link rel="icon" href="./assets/LOGO4.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <button id="logout" onclick="logout()" class="logout_gradient btn btn-outline-danger">
+            <i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+        <center>
+            <h1 id="header">
+                Meu Chat
+                <sup>
+                    <img width="100px" src="./assets/LOGO5.png" />
+                </sup>  
+            </h1>
+            <div id="welcomeUser"></div>
+            <div id="output-container">
+                <div id="output" style="text-align: left; word-wrap: break-word;"></div>
+            </div>
+            <br>
+        </center>
+    </div>
+    <center>
+        <div class="input_div_message_page">
+            <label>Enviar Mensagem! </label>
+            <input type="text" id="msg" class="form-control" placeholder="Message" onkeypress="handleKeyPress(event)">
+            <button onclick="send()" class="btn btn-success btnLarge">Send</button>
+        </div>
+    </center>
+    <script src="chatPage.js"></script>
+</body>
+</html>

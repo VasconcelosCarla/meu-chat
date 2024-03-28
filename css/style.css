@@ -1,0 +1,168 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+body{
+    background-color: rgb(218, 242, 252);
+}
+.wrapper {
+    min-height: 100%; 
+    position: relative; 
+}
+
+.bodyPart {
+    background-image: linear-gradient(to right top, #fff, #fff , #f3f3f3, #e2e0e0, #8482db, #f3f3f3, #6a7ed6, #f3f3f3, #6a7ed6);
+    padding-bottom: 70px; 
+    overflow: auto;
+}
+
+input::placeholder {
+    font-size: 18px; 
+}
+
+.rodaPe {
+    background-color: #000;
+    font-size: 16px;
+    height: 80px;
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    padding: 10px 0; 
+    color: #fff; 
+}
+
+.header {
+    color: #8497ee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 15px;
+}
+
+.header img{
+    width: 180px;
+    margin-left: -35px;
+}
+
+.login_div{
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    float: none;
+    border-radius: 15px;
+    color:#9babf3;
+    justify-content: center;
+    text-align: center;
+}
+
+.login_div h3{
+    padding: 20px;
+    font-size: 25px;
+    float: none;
+    border-radius: 15px;
+    color:#e7ebfa
+}
+
+.login_div h4{
+    font-size: 20px;
+    float: none;
+    border-radius: 15px;
+    color:#b4c0f7
+}
+
+.login_div label{
+    padding: 5px;
+    font-size: 15px;
+    float: none;
+    border-radius: 15px;
+    color:#ffffff
+}
+
+#loginButton{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.logo
+{
+	width: 80px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+#loginButton
+{
+	width: 80%;
+    border-radius: 15px;
+}
+
+.roomName
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#logout
+{
+	font-size: 20px; 
+    float: right;
+}
+
+#output
+{
+	padding: 10px; 
+    width:80%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+    height: auto;
+}
+
+.btn-large{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.input_div label
+{
+	color: white;
+    font-size: 20px;
+}
+
+
+.color_white
+{
+	color: rgb(48, 3, 119);
+    margin: 15px;
+    font-size: 25px;
+}
+
+.user_tick
+{
+	width:20px;
+}
+
+.message_h4
+{
+	padding-left:5px;
+    color:grey;
+    background-color: rgba(254, 208, 255, 0.5) ;
+}
+.btnLarge{
+    width: 250px;
+    font-size: 15px;
+    margin:5px;
+}
+.form-control label{
+    font-size: 16px;
+}
+
+
+
+

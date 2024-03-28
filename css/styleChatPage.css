@@ -1,0 +1,78 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+body{
+    background-image: linear-gradient(to right top, #fff, #fff , #f3f3f3, #e2e0e0, #8482db, #f3f3f3, #6a7ed6, #f3f3f3, #6a7ed6);
+}
+#logout
+{
+	font-size: 20px; 
+    float: right;
+}
+.input_div_message_page input::placeholder {
+    font-size: 18px; 
+}
+.header {
+    color: #8497ee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 30px;
+}
+
+#welcomeUser{
+    font-size: 15px;
+    margin-top: -10px;
+    padding-bottom: 0px;
+    font-family: cursive;
+    color: #2b3871;
+}
+#output-container {
+    max-height: 340px; 
+    max-width: 800px;
+    overflow-y: auto;
+    padding: 15px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    margin-bottom: 5px;
+    
+}
+
+.input_div_message_page {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 5px; 
+}
+
+.input_div_message_page #msg {
+    width: calc(100% - 150px); 
+}
+
+.input_div_message_page input:focus {
+    font-size: 16px; 
+}
+
+.input_div_message_page button {
+    padding-bottom: 5px;
+    width: 150px; 
+    margin-bottom: 10px;
+}
+.input_div_message_page label{
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.form-control label{
+    font-size: 16px;
+}
+
+.message-sent {
+    color: rgb(73, 73, 148); 
+}
+
+.message-received {
+    color: rgb(160, 113, 120); 
+}
